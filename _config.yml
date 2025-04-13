@@ -30,7 +30,8 @@ permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
 timezone: Europe/London
-
+include:
+  - _pages
 # Plugins
 plugins:
   - jekyll-paginate

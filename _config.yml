@@ -31,7 +31,7 @@ paginate: 5
 paginate_path: /page:num/
 timezone: Europe/London
 include:
-  _pages
+  - _pages
 # Plugins
 plugins:
   - jekyll-paginate

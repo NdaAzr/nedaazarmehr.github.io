@@ -60,20 +60,30 @@ plugins:
 author:
   name   : "First Lastname"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "I’m an Assistant Professor in Data Science and AI at the University of Sheffield. I completed my PhD in Computer Science in 2021 at the University of Lincoln, with a focus on Artificial Intelligence, in collaboration with Imperial College London.
+Following my PhD, I worked as a Postdoctoral Research Fellow at the University of Sheffield. My research lies at the intersection of AI, computer vision, and healthcare, with a strong focus on medical imaging and decision support systems. I’ve developed models for echocardiography view classification, left ventricle segmentation, speckle tracking, colonic polyp detection, and cancer pathology image analysis.
+I am particularly passionate about trustworthy AI, working to ensure algorithmic fairness, interpretability, and ethical robustness. My broader goal is to develop AI tools that are not only technically accurate but also equitable, explainable, and clinically useful.
+I am a Fellow of the Higher Education Academy and a Royal Academy of Engineering Awardee.
+."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=YOUR_ID"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/YOUR-ORCID-ID"
+    - label: "ResearchGate"
+      icon: "ai ai-researchgate"
+      url: "https://www.researchgate.net/profile/Neda-Azarmehr"
     - label: "Twitter"
       icon: "fab fa-twitter"
       url: "https://x.com/AzarmehrN"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      icon: "fab fa-github"
+      url: "https://github.com/nedaazarmehr"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:n.azarmehr@sheffield.ac.uk"
 
 footer:
   links:
@@ -83,9 +93,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/NdaAzr"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+
 
 defaults:
   # _posts

@@ -16,8 +16,8 @@
 title: Neda Azarmehr
 email: n.azarmehr@sheffield.ac.uk
 header_pages:
-  - Publications.md
-  - Projects.md
+  - publications.md
+  - projects.md
 sidebar:
   nav: null
 description: >- # this means to ignore newlines until "baseurl:"

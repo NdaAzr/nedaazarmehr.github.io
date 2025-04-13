@@ -15,8 +15,8 @@ search: true
 
 # Header navigation menu
 header_pages:
-  - projects.md
-  - publications.md
+  - _pages/projects.md
+  - _pages/publications.md
 
 # Sidebar settings
 theme: minimal-mistakes-jekyll

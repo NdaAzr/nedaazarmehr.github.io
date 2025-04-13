@@ -18,9 +18,6 @@ email: n.azarmehr@sheffield.ac.uk
 header_pages:
   - Publications.md
   - Projects.md
-  - Future projects.md
-  - Mission statement.md
-  - Contact.md
 sidebar:
 nav: null
 description: >- # this means to ignore newlines until "baseurl:"

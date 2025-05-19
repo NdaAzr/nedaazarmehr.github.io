@@ -6,8 +6,7 @@
 title: Neda Azarmehr
 email: n.azarmehr@sheffield.ac.uk
 description: >-
-  Assistant Professor in Data Science and AI. My research focuses on machine learning,
-  computer vision, medical imaging, and trustworthy AI in healthcare.
+  
 twitter_username: AzarmehrN
 github_username: nedaazarmehr
 minimal_mistakes_skin: default
@@ -45,7 +44,7 @@ plugins:
 author:
   name   : "Neda Azarmehr"
   avatar : "/assets/profile.jpeg"
-  bio    : "Assistant Professor in Data Science and AI. My research focuses on machine learning, deep learning, and trustworthy AI in healthcare applications."
+  bio    : 
   links:
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"

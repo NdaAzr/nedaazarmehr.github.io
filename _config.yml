@@ -44,7 +44,7 @@ plugins:
 # Author profile
 author:
   name   : "Neda Azarmehr"
-  avatar : "/assets/images/profile.jpg"
+  avatar : "/assets/images/profile.jpeg"
   bio    : "Assistant Professor in Data Science and AI. My research focuses on machine learning, deep learning, and trustworthy AI in healthcare applications."
   links:
     - label: "Google Scholar"

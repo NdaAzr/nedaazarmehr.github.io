@@ -11,10 +11,8 @@
     .container { display: flex; padding: 40px; align-items: flex-start; }
     .profile-img { max-width: 150px; border-radius: 10px; margin-right: 30px; }
     footer { text-align: center; margin-top: 40px; padding: 20px; border-top: 1px solid #ccc; }
-  </style>
-</head>
-<body>
-      .social-links {
+
+    .social-links {
       display: flex;
       flex-direction: column;
       gap: 10px;
@@ -34,7 +32,9 @@
       height: 20px;
       margin-right: 8px;
     }
-
+  </style>
+</head>
+<body>
 
   <header>
     <h1>Neda Azarmehr</h1>
@@ -43,21 +43,34 @@
       <a href="research.html">Research</a>
       <a href="publications.html">Publications</a>
       <a href="teaching.html">Teaching</a>
-      <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a>
+      <a href="https://scholar.google.com/citations?user=MbztIDgAAAAJ" target="_blank">Google Scholar</a>
       <a href="https://orcid.org/0000-0002-6367-207X" target="_blank">ORCID</a>
       <a href="https://www.sheffield.ac.uk/ijc/people/neda-azarmehr">Contact</a>
-
     </nav>
   </header>
 
   <div class="container">
-    <img src="images/profile.jpeg" alt="Neda Azarmehr" class="profile-img">
+    <div>
+      <img src="images/profile.jpeg" alt="Neda Azarmehr" class="profile-img">
+
+      <!-- Add icons + links here -->
+      <div class="social-links">
+        <a href="https://scholar.google.com/citations?user=MbztIDgAAAAJ" target="_blank">
+          <img src="images/google-scholar.png" alt="Google Scholar"> Google Scholar
+        </a>
+        <a href="https://orcid.org/0000-0002-6367-207X" target="_blank">
+          <img src="images/orcid.png" alt="ORCID"> ORCID
+        </a>
+        <a href="https://www.sheffield.ac.uk/ijc/people/neda-azarmehr" target="_blank">
+          <img src="images/contact-icon.png" alt="Contact"> Contact
+        </a>
+      </div>
+    </div>
 
     <div>
-      <h2></h2>
       <p>I am an Assistant Professor in Data Science and AI at the Information School, University of Sheffield.</p>
       <p>My research interests lie at the intersection of medical imaging, healthcare, and artificial intelligence.</p>
-      <p> I have received my doctoral degree in Computer Science with a focus on Artificial Intelligence from the University of Lincoln, completed in collaboration with Imperial College London.</p>
+      <p>I have received my doctoral degree in Computer Science with a focus on Artificial Intelligence from the University of Lincoln, completed in collaboration with Imperial College London.</p>
     </div>
   </div>
 

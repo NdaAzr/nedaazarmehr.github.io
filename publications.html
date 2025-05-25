@@ -2,21 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Publication</title>
+  <title>Publications</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
     nav { float: right; margin-bottom: 20px; }
     nav a { margin-left: 15px; text-decoration: none; color: #333; }
-    .project-gallery { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 30px; }
-    .project-card { text-align: center; border: 1px solid #ddd; border-radius: 8px; padding: 10px; box-shadow: 2px 2px 5px #ccc; width: 250px; }
-    .project-card img { max-width: 100%; border-radius: 5px; }
-    .project-card a { display: block; text-decoration: none; color: green; margin-top: 10px; font-size: 1.1em; }
+    .publication { border-bottom: 1px solid #ddd; padding: 15px 0; }
+    .publication h3 { margin: 0; font-size: 1.2em; }
+    .publication p { margin: 5px 0; }
+    .links a { margin-right: 10px; color: green; text-decoration: none; }
+    .bibtex { background-color: #f9f9f9; padding: 10px; margin-top: 10px; font-family: monospace; white-space: pre-wrap; }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Publication</h1>
+    <h1>Publications</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="projects.html">Projects</a>
@@ -25,12 +26,40 @@
     </nav>
   </header>
 
-  <p>This page is under development. Please check back later.</p>
+  <div class="publication">
+    <h3>Automated Segmentation of Left Ventricle in 2D Echocardiography Using Deep Learning</h3>
+    <p><strong>Authors:</strong> Neda Azarmehr, Xujiong Ye, Faraz Janan, James P. Howard, Darrel P. Francis, Massoud Zolgharni</p>
+    <p><strong>Published in:</strong> Medical Image Understanding and Analysis (MIUA), 2019</p>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2003.07628.pdf" target="_blank">[PDF]</a>
+      <a href="#" onclick="toggleBibtex('bib1'); return false;">[BibTeX]</a>
+    </div>
+    <div id="bib1" class="bibtex" style="display:none;">
+@inproceedings{Azarmehr2019,
+  title={Automated Segmentation of Left Ventricle in 2D Echocardiography Using Deep Learning},
+  author={Azarmehr, Neda and Ye, Xujiong and Janan, Faraz and Howard, James P. and Francis, Darrel P. and Zolgharni, Massoud},
+  booktitle={Medical Image Understanding and Analysis (MIUA)},
+  year={2019}
+}
+    </div>
+  </div>
 
+  <!-- Add more publications in the same format -->
 
   <footer>
     <p>© 2025 Neda Azarmehr</p>
   </footer>
+
+  <script>
+    function toggleBibtex(id) {
+      var x = document.getElementById(id);
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
 
 </body>
 </html>
